@@ -1,0 +1,31 @@
+name: Save website if change
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '37 */6 * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
+    - name: Fetch latest data
+      run: |-
+        curl -O https://coronavirus.sergas.gal/infodatos/2020-10-12_COVID19_Web_CifrasTotais.csv
+        curl -O https://coronavirus.sergas.gal/infodatos/2020-10-12_COVID19_Web_ActivosCuradosFallecidos.csv
+        curl -O https://coronavirus.sergas.gal/infodatos/2020-10-12_COVID19_Web_InfectadosPorFecha.csv
+        curl -O https://coronavirus.sergas.gal/infodatos/2020-10-12_COVID19_Web_PorcentajeInfectadosPorGenero.csv
+        curl -O https://coronavirus.sergas.gal/infodatos/2020-10-12_COVID19_Web_Fallecidos.csv
+        curl -O https://coronavirus.sergas.gal/infodatos/2020-10-12_COVID19_Web_PorcentajeInfeccionesPorFecha.csv
+        curl -O https://coronavirus.sergas.gal/infodatos/2020-10-12_COVID19_Web_OcupacionCamasHospital.csv
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest data: ${timestamp}" || exit 0
+        git push
