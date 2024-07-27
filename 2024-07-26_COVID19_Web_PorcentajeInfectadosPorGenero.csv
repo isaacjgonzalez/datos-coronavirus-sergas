@@ -1,52 +1,20 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><head><meta name="GENERATOR" content="Microsoft SharePoint"/><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Expires" content="0" /><meta name="ROBOTS" content="NOHTMLINDEX"/><style type="text/css">
-                body {
-                color:#676767;
-                font-family:Verdana,Arial,sans-serif;
-                font-size:8pt;
-                }
+Area_Sanitaria,Genero,Personas_Infectadas,Porcentaje
+"GALICIA","HOMES","170.379","45,16%"
+"GALICIA","MULLERES","206.929","54,84%"
 
-                body #s4-simple-card-content{
-                margin:0px 30px 30px 30px;
-                word-wrap:break-word;
-                max-width:100%;
-                }
-
-                body #s4-simple-card{
-                width:575px;
-                margin:100px auto 0px auto;
-                background-color:#fafcff;
-                border-top:1px solid #e3e8ee;
-                border-left:1px solid #d9dde3;
-                border-bottom:2px solid #bec2c7;
-                border-right:2px solid #d9dde3;
-                filter:progid:DXImageTransform.Microsoft.Shadow(color:#edf3f9,strength:5,direction:135);-ms-filter:"progid:DXImageTransform.Microsoft.Shadow(color:#edf3f9,strength:5,direction:135)";-moz-box-shadow:#edf3f9 0px 0px 5px 0px;-webkit-box-shadow:0px 0px 5px #edf3f9;box-shadow:0px 0px 5px #edf3f9;
-                }
- 
-                body #s4-simple-card-top{
-                    height:10px;
-                    text-align:right;
-                    padding:10px 10px 0px 10px;
-                }
-                
-                div.s4-simple-iconcont{
-                    float:left;
-                    width:40px;
-                    text-align:center;
-                    vertical-align:top;
-                }
-                body #s4-simple-error-content{
-                        min-height:100px;
-                        margin-bottom:30px;
-                }
-                body #s4-simple-content{
-                    margin-left:70px;
-                }
-
-                body #s4-simple-card h1{
-                    font-size:1.7em;
-                    font-weight:normal;
-                    margin-bottom:25px;
-                    padding-top:3px;
-                    color:#666;
-                }
-             </style></head><body><div id="s4-simple-card"><div id="s4-simple-card-top"></div><div id="s4-simple-card-content"><div class="s4-simple-iconcont"><img src="/_layouts/images/errorIcon.png" /></div><div id="s4-simple-content"><h1><span id="errorPageTitleSpan" tabindex="0">Error</span></h1><div id="s4-simple-error-content"><span id="ctl00_PlaceHolderMain_LabelMessage">El servidor está ocupado ahora. Inténtelo de nuevo más tarde</span><p><span id="ctl00_PlaceHolderMain_RequestGuidText">Identificador de correlación::a4b0d4a6-d668-4b69-84b1-ff3fb8b79f11</span></p><p><span id="ctl00_PlaceHolderMain_DateTimeText">Fecha y hora: 27/07/2024 14:56:02</span></p></div></div></div></body></html>
+"A.S. A CORUÑA E CEE","HOMES","37.698","44,81%"
+"A.S. A CORUÑA E CEE","MULLERES","46.437","55,19%"
+"A.S. FERROL","HOMES","12.317","44,57%"
+"A.S. FERROL","MULLERES","15.321","55,43%"
+"A.S. LUGO, A MARIÑA E MONFORTE","HOMES","19.172","44,67%"
+"A.S. LUGO, A MARIÑA E MONFORTE","MULLERES","23.750","55,33%"
+"A.S. OURENSE, VERÍN E O BARCO","HOMES","20.517","44,27%"
+"A.S. OURENSE, VERÍN E O BARCO","MULLERES","25.831","55,73%"
+"A.S. PONTEVEDRA E O SALNÉS","HOMES","19.321","45,41%"
+"A.S. PONTEVEDRA E O SALNÉS","MULLERES","23.229","54,59%"
+"A.S. SANTIAGO E BARBANZA","HOMES","22.459","45,78%"
+"A.S. SANTIAGO E BARBANZA","MULLERES","26.599","54,22%"
+"A.S. VIGO","HOMES","38.780","45,94%"
+"A.S. VIGO","MULLERES","45.631","54,06%"
+"SEN A.S. ASIGNADA","HOMES","115","46,75%"
+"SEN A.S. ASIGNADA","MULLERES","131","53,25%"
